@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register | AutoLuxe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">AUTO<span>LUXE</span></a>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html">Listings</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main class="auth-page">
+ 
+        <section class="auth-wrapper">
+ 
+            <!-- Side panel -->
+            <div class="auth-side">
+                <div class="auth-side-content">
+                    <a href="index.html" class="logo">AUTO<span>LUXE</span></a>
+                    <h2>Drive What You <span>Deserve</span></h2>
+                    <p>Sign in to save vehicles, message sellers, and pick up right where you left off.</p>
+                </div>
+            </div>
+ 
+            <!-- Form panel -->
+            <div class="auth-form-panel">
+ 
+                <div class="auth-tabs">
+                    <button class="auth-tab active" data-tab="login">Login</button>
+                    <button class="auth-tab" data-tab="register">Register</button>
+                </div>
+ 
+                <!-- Login form -->
+                <form class="auth-form active" id="login-form">
+                    <h3>Welcome back</h3>
+                    <p class="auth-subtitle">Log in to continue browsing your saved listings.</p>
+ 
+                    <div class="form-group">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" placeholder="youremail@example.com" required>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" placeholder="Enter your password" required>
+                    </div>
+ 
+                    <div class="form-meta">
+                        <label class="checkbox-label">
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#" class="forgot-link">Forgot password?</a>
+                    </div>
+ 
+                    <button type="submit" class="btn auth-submit">Log In</button>
+ 
+                    <p class="auth-switch">Don't have an account? <a href="#" data-tab-link="register">Register</a></p>
+                </form>
+ 
+                <!-- Register form -->
+                <form class="auth-form" id="register-form">
+                    <h3>Create your account</h3>
+                    <p class="auth-subtitle">Join AutoLuxe to list, save, and message sellers.</p>
+ 
+                    <div class="form-group">
+                        <label for="register-name">Full name</label>
+                        <input type="text" id="register-name" placeholder="Your full name" required>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="register-email">Email</label>
+                        <input type="email" id="register-email" placeholder="youremail@example.com" required>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="register-phone">Phone number</label>
+                        <input type="tel" id="register-phone" placeholder="+254 7XX XXX XXX" required>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="register-password">Password</label>
+                        <input type="password" id="register-password" placeholder="Create a password" required>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="register-confirm">Confirm password</label>
+                        <input type="password" id="register-confirm" placeholder="Confirm your password" required>
+                    </div>
+ 
+                    <label class="checkbox-label terms">
+                        <input type="checkbox" required> I agree to the Terms of Service and Privacy Policy
+                    </label>
+ 
+                    <button type="submit" class="btn auth-submit">Create Account</button>
+ 
+                    <p class="auth-switch">Already have an account? <a href="#" data-tab-link="login">Log In</a></p>
+                </form>
+ 
+            </div>
+ 
+        </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="luxe">
+            <h3>AUTO<span>LUXE</span></h3><br>
+            <p>Your trusted marketplace</p>
+        </div>
+
+        <div class="qlinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div class="handles">
+                <a href="https://instagram.com/luxe_automotive_kenya"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-x-line"></i></a>
+                <a href="#"><i class="ri-facebook-line"></i></a>
+        </div>
+
+        <div class="contact-us">
+            <ul>
+                <li>Email: LuxeAuto@gmail.com</li>
+                <li>Phone: +2547 29 670 442/ +2547 08 626 855</li>
+                <li>Nairobi, Kenya</li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <p>© 2025 AutoLuxe. All rights reserved</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

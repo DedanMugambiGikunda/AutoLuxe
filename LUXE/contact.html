@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="styles.css">
+    
+        <!-- boxicons link -->
+        <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+        <!-- remixicons -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"/>
+    
+    
+         <!-- google fonts link -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!-- Header starts -->
+    <header class="header">
+        <a href="#" class="logo">AUTO<span>LUXE</span></a>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listings.html">Listings</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#" class="active">Contact</a></li> <!-- So this appears highlighted on the navbar -->
+            
+        </ul>
+
+        <a href="Register.html" class="btn login-btn">Login / Register</a>
+    </header>
+    <!-- Header ends -->
+    
+
+    <main class="contact-page">
+ 
+        <!-- Contact hero starts -->
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <h1>Get in <span>Touch</span></h1>
+                <p>Questions about a listing, a sale, or just want to say hi? Our team usually replies within a few hours.</p>
+            </div>
+        </section>
+        <!-- Contact hero ends -->
+ 
+        <!-- Contact body starts -->
+        <section class="contact-body">
+ 
+            <!-- Contact info cards -->
+            <div class="contact-info">
+ 
+                <div class="info-card">
+                    <i class="ri-map-pin-2-line"></i>
+                    <h3>Visit Us</h3>
+                    <p>Westlands Business Park<br>Nairobi, Kenya</p>
+                </div>
+ 
+                <div class="info-card">
+                    <i class="ri-phone-line"></i>
+                    <h3>Call Us</h3>
+                    <p><a href="tel:+254729670442">+254 729 670 442</a><br><a href="tel:+254708626855">+254 708 626 855</a></p>
+                </div>
+ 
+                <div class="info-card">
+                    <i class="ri-mail-line"></i>
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:LuxeAuto@gmail.com">LuxeAuto@gmail.com</a></p>
+                </div>
+ 
+                <div class="info-card">
+                    <i class="ri-time-line"></i>
+                    <h3>Working Hours</h3>
+                    <p>Mon - Fri: 8am - 6pm<br>Sat: 9am - 3pm</p>
+                </div>
+ 
+            </div>
+ 
+            <!-- Contact form -->
+            <div class="contact-form-wrapper">
+                <h2>Send Us a Message</h2>
+                <p class="form-subtitle">Fill in the form below and we'll get back to you shortly.</p>
+ 
+                <form class="contact-form" id="contact-form">
+ 
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full name</label>
+                            <input type="text" id="name" placeholder="Your full name" required>
+                        </div>
+ 
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="you@example.com" required>
+                        </div>
+                    </div>
+ 
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone number</label>
+                            <input type="tel" id="phone" placeholder="+254 7XX XXX XXX">
+                        </div>
+ 
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject">
+                                <option value="">What's this about?</option>
+                                <option>Buying a vehicle</option>
+                                <option>Selling a vehicle</option>
+                                <option>Account support</option>
+                                <option>Partnership</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" placeholder="Tell us a bit more..." required></textarea>
+                    </div>
+ 
+                    <button type="submit" class="btn contact-submit">Send Message</button>
+ 
+                </form>
+            </div>
+ 
+        </section>
+        <!-- Contact body ends -->
+ 
+        <!-- Map starts -->
+        <section class="contact-map">
+            <iframe
+                src="https://www.google.com/maps?q=Westlands,Nairobi,Kenya&output=embed"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="eager"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+        <!-- Map ends -->
+ 
+    </main>
+ 
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="luxe">
+            <h3>AUTO<span>LUXE</span></h3>
+            <p>Your trusted marketplace for premium vehicles</p>
+        </div>
+ 
+        <div class="qlinks">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+ 
+        <div class="handles">
+            <h4>Follow Us</h4>
+            <a href="https://instagram.com/luxe_automotive_kenya" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+            <a href="#" aria-label="X"><i class="ri-twitter-x-line"></i></a>
+            <a href="#" aria-label="Facebook"><i class="ri-facebook-line"></i></a>
+        </div>
+ 
+        <div class="contact-us">
+            <h4>Contact Info</h4>
+            <ul>
+                <li>Email: <a href="mailto:LuxeAuto@gmail.com">LuxeAuto@gmail.com</a></li>
+                <li>+254 729 670 442</li>
+                <li>+254 708 626 855</li>
+                <li>Nairobi, Kenya</li>
+            </ul>
+        </div>
+ 
+        <div class="copyright">
+            <p>&copy; 2025 AutoLuxe. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer ends -->
+
+</body>
+</html>
